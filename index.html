@@ -11,46 +11,74 @@
      </head>
      <body>
 
+           <button onclick="printPopUp()" type="button">Print Othman’s Resume</button>
+		   <h3 onclick="myFunction()">Othman Abd-Alhameed Othman Hasan</h3>  
            
-		   <h3>Othman Abd-Alhameed Othman Hasan</h3>  
-           <p>
+		      <p>
 		      <ins><strong>Academic</strong></ins><br>
 		      studied in Jinsafut Boys High School <br>
 			  i studied in Qalqilya Industrial Secondary School<br>
 		      i studying in An-Najah National University<br>
 			   <br>
+			  </p>
 			  
+			  <p>
 			   <ins><strong>work background</strong></ins><br>
 			  I worked in computer maintenance, sale and programming<br>
 			   <br>
+			  </p>
 			  
+			  <p>
 			  <a href="https://twitter.com/OthmanHasan96">Link to my page in Twitter</a><br>
 			   <img src="othman.JPG" alt="my personal image" width="300" height="345"><br>
 			   <br>
-
+			  </p>
+               <p id="demo">
 			   <ins><strong>education background</strong></ins><br>
 			  I have knowledge in computer maintenance and programming <br>
 			      Training experience in Asp.net <br>
 			   <br>
-			  
-			  
+			   </p>
+			   
+			  <p onmouseover="myOverFunction()" onmouseout="myOutFunction()">
 			   <ins><strong>work experiences</strong></ins><br>
 			  
 			      Training in NourSoft company (Asb.net MVC)<br> 
 			      worked in computer maintenance (hardware and software) <br>
 			   <br>
-			  
-			 
+			  </p>
+			   
+			   <p>
 			   <ins><strong>hobbies</strong></ins><br>
 			  Playing football<br>
 			      video games <br>
 				  Watch series<br>
+			  </p>
 			  
-			  
-		   </p>
+		   
 		   
 		
-
+           
+		   
      </body>
-
+     <script>
+	               function myFunction() {
+                           alert("Welcome to Othman site, please let me know if you have any questions");
+                           }
+	    
+                   function printPopUp() {
+                     
+                     window.print();
+                     }
+       
+                   function myOverFunction() {
+                          document.getElementById("demo").style.backgroundColor = "green";
+                     }
+					 
+           
+                   function myOutFunction() {
+                       document.getElementById("demo").style.backgroundColor ="powderblue";
+                     }
+					 
+           </script>
  </html>
