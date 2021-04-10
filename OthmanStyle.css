@@ -4,7 +4,8 @@
 					color : Tomato;
 					margin-left: 110px;
 					margin-right: 110px;
-					margin-bottom: 50px;
+					margin-bottom:0px;
+					margin-top :0px;
 					font-size: 100%;
 				}
 
@@ -24,5 +25,18 @@
 			   margin-bottom: 50px;
 			   color : white;
 				  font-size: 300%;
+		   }
+		   
+		   button {
+			   position: absolute;
+			   top:0px;
+			   left :0px;
+			   background-color:yellow;
+			   color:blue;
+			   font-family: serif;
+			   font-weight: bold;
+			
+			   
+			   
 		   }
 	  	
