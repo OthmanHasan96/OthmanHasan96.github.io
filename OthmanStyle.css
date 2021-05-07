@@ -1,0 +1,51 @@
+          
+		   p    {   background-color :  powderblue;
+		  	        font-family:courier;
+					color : Tomato;
+					margin-left: 110px;
+					margin-right: 110px;
+					margin-bottom:0px;
+					margin-top :0px;
+					font-size: 100%;
+				}
+
+		   body { background-color : DodgerBlue;
+		         font-size:2vw;
+				 text-align:center;
+				}
+		
+		   img { display: block;
+                 margin-left: auto;
+                 margin-right: auto;
+				 max-width:100%;
+				 height:auto;
+		       }
+		   
+		   h3{margin-top: 50px;
+			   margin-bottom: 50px;
+			   color : white;
+				  font-size: 300%;
+		   }
+		   
+		   #print{
+               position: fixed;
+			   top: 8px;
+               left: 16px;
+			   background-color:yellow;
+			   color:blue;
+			   font-family: serif;
+			   font-weight: bold; 
+		   }
+		   
+		   #new {
+			   
+			  position: fixed;
+              top: 8px;
+              right: 16px;
+			   background-color:yellow;
+			   color:blue;
+			   font-family: serif;
+			   font-weight: bold; 
+		   }
+		   
+	  	

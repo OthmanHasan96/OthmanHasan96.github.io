@@ -1,0 +1,82 @@
+
+	
+<!DOCTYPE>
+   <html>
+      <head>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		  <style>
+                     body{
+                    font-family: 'Averia Serif Libre';
+                     margin-top: 5vh;
+                        }
+                     input{
+                     border: 1px solid;
+                          }
+                     td:first-child{
+                     width: 200px; 
+                             }
+                     .No {
+                     all: unset;
+                         }
+                     div{
+                    padding-left:40%;
+                        }
+						
+					   #old {
+			   
+                          position: fixed;
+                           top: 8px;
+                          right: 16px;
+			               background-color:yellow;
+			              color:blue;
+			               font-family: serif;
+			               font-weight: bold; 
+		                     }
+		   	
+   </style>
+      </head>
+      <body>
+	  <button id="old" onclick="document.location='index.html'">Old page</button>
+         <h1> Internship Application</h1>
+         <p>Please fill out the form below and hit submit to be considered for the internship.</p>
+       <fieldset>
+  <legend>Personalia:</legend> 
+  <form  name="contactForm" id="contactForm" method="post" type="submit">
+  
+    First name:</td><td><input type="text" id="Fname"  required ><br>
+     Last name:</td><td><input type="text" id="Lname"  required><br>
+      Personal Website:<input type="text" id="Web"  required><br>
+       Enter a phone number:</td><td><input type="number" id="num"  required><br>
+        Enter your email: </td><td><input type="email" id="email"  required><br>
+         Username:</td><td><input type="text" id="user"  required><br>
+    Password</td><td><input type="Password" id="Pas"  required><br>
+  
+</fieldset>
+<fieldset>
+  <legend>Education:</legend> 
+  
+	<label for="Degree"> Degree:</label>
+			 <input list="degrees" name="degree" id="Dgre"  required>
+             <datalist id="degrees">
+             <option value="Associate">
+             <option value="Bachelor">
+             <option value="Masters">
+             <option value="Ph.D.">
+             <option value="other">
+             </datalist><br>
+    When will you graduate:  <input type="date" name="bday" id="grd"  required> <br>
+     Upload your CV and other documents: </td><td> <input class="No" type="file" id="myfile" name="myfile"  required multiple ><br>
+  
+</fieldset>
+<br>
+<div>
+ <button type="submit" onclick="Submittt();" > SUBMIT</button> 
+<button href="#" onclick="document.getElementById('contactForm').reset();">RESET</button>
+ <button type="submit" onclick="Save();" > SAVE</button> 
+</div>
+
+       </form>
+	   <script src="jsfile.js"></script>
+      </body>
+   </html>
+
